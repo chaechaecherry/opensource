@@ -5,7 +5,8 @@
 I am planning to make a computer vision software that detects objects in images. 
 In order to build it, I will use opencv deep learning libraries, such as[Tensorflow](https://www.tensorflow.org/?hl=ko) or [PyTorch](https://pytorch.org/), and other open source soft wares.
 
-For example, the objects in the following images were detected using[mmdetection](https://github.com/open-mmlab/mmdetection):
+For example, the objects in the following images were detected using [mmdetection](https://github.com/open-mmlab/mmdetection):
+![](https://user-images.githubusercontent.com/12907710/137271636-56ba1cd2-b110-4812-8221-b4c120320aa9.png)
 
 ---
 ### Dependencies
@@ -15,12 +16,14 @@ For example, the objects in the following images were detected using[mmdetection
 - openmmlab
 - package manager
 
-###Installation
+### Installation
 
 In a bash terminal, run the following commands ( Do *NOT* actually run these commands in your computer):
 
+```c
+$ sudo apt update
+$ conda create -n cv_detection
+$ conda activate cv_detection
+$ python --version
+$ python example.py
 
-
-
-
-in class
